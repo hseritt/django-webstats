@@ -5,6 +5,9 @@ description = "Simple functionality to record django view visits (IP Address, UR
 authors = ["Harlin Seritt <harlin.seritt@gmail.com>"]
 license = "MIT"
 readme = "README.md"
+packages = [
+    { include = "webstats" }
+]
 
 [tool.poetry.dependencies]
 python = "^3.12"
